@@ -101,7 +101,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "NYC"
-  email            :
+  email            : "sa677@njit.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -110,13 +110,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "MohammadrezaAzimi"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "seyyedmohammadrezaazimi"
+  linkedin         : "seyyed-mohammadreza-azimi"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
