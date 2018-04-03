@@ -1,1 +1,194 @@
 theme: jekyll-theme-cayman
+locale: "en-US"
+title: "site title"
+title_separator: "_"
+name: "Mreza"
+description: "amazing"
+url:
+baseurl:
+repository:
+teasor:
+words_per_minute: 200
+comments:
+provider:
+disqus:
+shortname:
+discourage:
+server:
+facebook:
+appid:
+num_posts:
+colorscheme:
+staticman:
+allowedFields:
+branch:
+commitMessage:
+filename:
+format:
+moderation:
+path:
+requiredFields:
+date:
+  type:
+    options:
+      format:
+reCaptcha:
+  siteKey:
+    secret:
+      atom_feed:
+path:
+search:
+search_full_content:
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+twitter:
+username:
+facebook:
+username:
+app_id:
+publisher:
+og_image:
+social:
+type:
+name:
+links:
+author:
+name: "Mreza"
+avatar:
+bio:
+location: "NYC"
+email:
+uri:
+home:
+bitbucket:
+codepen:
+dribbble:
+flicker:
+facebook:
+foursquare:
+github:
+gitlab:
+google_plus:
+keybase:
+instagram:
+lastfm:
+linkedin:
+pinterest:
+soundcloud:
+stackoverflow:
+steam:
+tumblr:
+twitter:
+vine:
+weibo:
+xing:
+youtube:
+include:
+  - .htaccess
+  - _pages
+exclude:
+  -"*.sublime-project"
+  -"*.sublime-workspace"
+  -vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - README
+  - tmp
+  - /docs
+  - /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  sass:
+    sass_dir: _sass
+    style: compressed
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_page: /page:num/
+timezone:
+
+plugins:
+  -jekyll-paginate
+  -jekyll-sitemap
+  -jekyll-gist
+  -jekyll-feed
+  -jemoji
+
+whitelist:
+  -jekyll-paginate
+  -jekyll-sitemap
+  -jekyll-gist
+  -jekyll-feed
+  -jemoji
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+compress_html:
+  clipping: all
+  ignore:
+  envs: development
+
+defaults:
+  -scope:
+     path: ""
+     type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments:
+      share: true
+      related: true
+
+#_pages
+-scope:
+  path: ""
+  type: pages
+ values:
+   layout: single
+   author_profile: true
+   read_time: true
+   comments:
+   share: true
+   related: true
