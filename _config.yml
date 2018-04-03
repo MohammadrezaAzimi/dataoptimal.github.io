@@ -170,7 +170,7 @@ compress_html:
   envs: development
 
 defaults:
-  -scope:
+  - scope:
      path: ""
      type: posts
     values:
