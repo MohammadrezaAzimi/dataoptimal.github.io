@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Seyyed Mohammadreza Azimi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/profile img.jpg"
   bio              : "I am an amazing person."
   location         : "NYC"
   email            : "sa677@njit.edu"
