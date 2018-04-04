@@ -2,6 +2,6 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/gigapans"
+  image: "/images/gigapans.jpg"
 ---
 Mreza  
