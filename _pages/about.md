@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/landscape.jpg"
+  image: "/images/CV.pdf"
 ---
 
 Mreza
