@@ -1,6 +1,8 @@
 ---
-layout: home
-author_profile: true
+title: "About"
+permalink: /about/
 header:
   image: "/images/bkbridge2.jpg"
 ---
+
+Mreza 
