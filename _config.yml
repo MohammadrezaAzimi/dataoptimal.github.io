@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Seyyed Mohammadreza Azimi"
-  avatar           : "/images/profile img.jpg"
+  avatar           : "/images/profile img.png"
   bio              : "I am an amazing person."
   location         : "New York City"
   email            : "sa677@njit.edu"
@@ -268,9 +268,9 @@ defaults:
       related: true
 
 # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
