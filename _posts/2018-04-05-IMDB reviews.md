@@ -18,7 +18,7 @@ Here is some basic text.
 
 and *italics*
 
-and *bold*
+and **bold** text
 
 link [link](https://scholar.google.it/citations?hl=de&user=Nuew5tYAAAAJ&view_op=list_works&sortby=pubdate#)
 
@@ -36,8 +36,8 @@ numbered
 Python code block:
 ```python
     import numpy as np
-    def text_function(x,y)
-      z=np.sum(x,y)
+    def text_function(x, y):
+      z = np.sum(x,y)
       return z
 ```
 R code block:
@@ -47,7 +47,7 @@ df <- read_csv("some_file.csv")
 head(df)
 ```
 
-inline `x+y`
+inline `x+y`.
 
 Using html
 <img src="{{ site.url }}{{ site.baseurl }}/images/IMDB/profile img.png" alt="ooo">
